@@ -1,0 +1,271 @@
+/* Universal */
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600px;
+    border: 0;
+}
+
+
+/* banner */
+
+.banner img {
+    /* background-image: url(images/banner/banner1.png); */
+    position: relative;
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 131px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    max-width: 525px;
+    text-align: right;
+    float: right;
+    /* padding-top: 216px; */
+    /* padding-right: 230px */
+}
+
+.banner-text-heading {
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-text-description {
+    font-size: 16px;
+    color: #444343;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.banner-text .btn-primary {
+    color: white;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* main start there */
+
+
+
+/* section start there */
+
+.my-failures-box {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 320px 130px 200px;
+}
+
+.my-failures-text {
+    max-width: 416px;
+    margin-right: 220px;
+}
+
+.my-failures-heading {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #151414;
+}
+
+.my-failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/*  icon sub-description style there */
+
+.icon-text {
+    margin-top: 16px;
+}
+.material-symbols-outlined {
+    padding-right: 10px;
+    color: #16D887;
+}
+
+
+
+.icon-item {
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+/* my-plan style there */
+
+.my-plan {
+    text-align: center;
+}
+.my-plan h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-desc {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1141px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-box {
+    align-items: center;
+}
+.plan-box-title {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan-box-descripiton {
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* image gradient */
+
+.gradinent-img {
+    margin: 80px 0;
+}
+
+.watch-img-liner {
+    background-image: linear-gradient(to right, #F15B22, rgba(241, 91, 34, 0) 100%),url('images/watch.png');
+    width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.img-h4 {
+    padding-left: 64px;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    max-width: 459px;
+    line-height: 50px;
+}
+
+.watch-img-liner .btn-primary {
+    padding: 15px 30px;
+    margin-left: 64px;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: #151414;
+}
+.info {
+    display: flex;
+    gap: 300px;
+    text-align: left;
+}
+
+/* future */
+.future {
+    margin-left: 390px;
+    margin-top: 130px;
+    color: white;
+    width: 450px;
+}
+
+.future-heading {
+    margin-bottom: 16px;
+    font-size: 45px;
+    font-weight: 700;
+    color: wheat;
+}
+
+.future-desc {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.future-email {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.future-number {
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.future-icon {
+    margin-bottom: 130px;
+}
+.future-icon img {
+    padding-right: 17px;
+    
+}
+
+/* subscribe */
+.subscribe {
+    margin-top: 130px;
+}
+
+.subcribe-title {
+    color: wheat;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+input {
+    background-color: none;
+    width: 225px;
+    margin-bottom: 16px;
+    padding-left: 21px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid white;
+}
+#email {
+    background-color: #151414;
+}
+
+
+.subscribe .btn-primary {
+    margin-top: 19px;
+    color: #F15B22;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
